@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCABF30619E39789008B84AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCABF30519E39789008B84AF /* Foundation.framework */; };
+		CCABF30919E39789008B84AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCABF30819E39789008B84AF /* main.m */; };
+		CCABF30D19E39789008B84AF /* CarDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCABF30C19E39789008B84AF /* CarDemo.1 */; };
+		CCABF31519E397B7008B84AF /* QYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CCABF31419E397B7008B84AF /* QYCar.m */; };
+		CCABF31819E397DB008B84AF /* QYEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CCABF31719E397DB008B84AF /* QYEngine.m */; };
+		CCABF31B19E397EF008B84AF /* QYTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CCABF31A19E397EF008B84AF /* QYTire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCABF30019E39789008B84AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CCABF30D19E39789008B84AF /* CarDemo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCABF30219E39789008B84AF /* CarDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCABF30519E39789008B84AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCABF30819E39789008B84AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCABF30B19E39789008B84AF /* CarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCABF30C19E39789008B84AF /* CarDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CarDemo.1; sourceTree = "<group>"; };
+		CCABF31319E397B7008B84AF /* QYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCar.h; sourceTree = "<group>"; };
+		CCABF31419E397B7008B84AF /* QYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCar.m; sourceTree = "<group>"; };
+		CCABF31619E397DB008B84AF /* QYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYEngine.h; sourceTree = "<group>"; };
+		CCABF31719E397DB008B84AF /* QYEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYEngine.m; sourceTree = "<group>"; };
+		CCABF31919E397EF008B84AF /* QYTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTire.h; sourceTree = "<group>"; };
+		CCABF31A19E397EF008B84AF /* QYTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTire.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCABF2FF19E39789008B84AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCABF30619E39789008B84AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCABF2F919E39789008B84AF = {
+			isa = PBXGroup;
+			children = (
+				CCABF30719E39789008B84AF /* CarDemo */,
+				CCABF30419E39789008B84AF /* Frameworks */,
+				CCABF30319E39789008B84AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCABF30319E39789008B84AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCABF30219E39789008B84AF /* CarDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCABF30419E39789008B84AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCABF30519E39789008B84AF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCABF30719E39789008B84AF /* CarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCABF30819E39789008B84AF /* main.m */,
+				CCABF31319E397B7008B84AF /* QYCar.h */,
+				CCABF31419E397B7008B84AF /* QYCar.m */,
+				CCABF31619E397DB008B84AF /* QYEngine.h */,
+				CCABF31719E397DB008B84AF /* QYEngine.m */,
+				CCABF31919E397EF008B84AF /* QYTire.h */,
+				CCABF31A19E397EF008B84AF /* QYTire.m */,
+				CCABF30C19E39789008B84AF /* CarDemo.1 */,
+				CCABF30A19E39789008B84AF /* Supporting Files */,
+			);
+			path = CarDemo;
+			sourceTree = "<group>";
+		};
+		CCABF30A19E39789008B84AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCABF30B19E39789008B84AF /* CarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCABF30119E39789008B84AF /* CarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCABF31019E39789008B84AF /* Build configuration list for PBXNativeTarget "CarDemo" */;
+			buildPhases = (
+				CCABF2FE19E39789008B84AF /* Sources */,
+				CCABF2FF19E39789008B84AF /* Frameworks */,
+				CCABF30019E39789008B84AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarDemo;
+			productName = CarDemo;
+			productReference = CCABF30219E39789008B84AF /* CarDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCABF2FA19E39789008B84AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qiudushu;
+			};
+			buildConfigurationList = CCABF2FD19E39789008B84AF /* Build configuration list for PBXProject "CarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCABF2F919E39789008B84AF;
+			productRefGroup = CCABF30319E39789008B84AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCABF30119E39789008B84AF /* CarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCABF2FE19E39789008B84AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCABF31519E397B7008B84AF /* QYCar.m in Sources */,
+				CCABF31B19E397EF008B84AF /* QYTire.m in Sources */,
+				CCABF30919E39789008B84AF /* main.m in Sources */,
+				CCABF31819E397DB008B84AF /* QYEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCABF30E19E39789008B84AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCABF30F19E39789008B84AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCABF31119E39789008B84AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarDemo/CarDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCABF31219E39789008B84AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarDemo/CarDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCABF2FD19E39789008B84AF /* Build configuration list for PBXProject "CarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCABF30E19E39789008B84AF /* Debug */,
+				CCABF30F19E39789008B84AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCABF31019E39789008B84AF /* Build configuration list for PBXNativeTarget "CarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCABF31119E39789008B84AF /* Debug */,
+				CCABF31219E39789008B84AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCABF2FA19E39789008B84AF /* Project object */;
+}
