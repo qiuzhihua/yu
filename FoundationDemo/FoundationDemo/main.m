@@ -52,6 +52,16 @@ int main(int argc, const char * argv[])
     [secArr removeObjectAtIndex:2];
     NSLog(@"===secArr: %@", secArr);
     
+    // 插入
+    [secArr insertObject:@"wangwu" atIndex:2];
+    NSLog(@"after insert: %@", secArr);
+    
+    // 替换
+    NSObject *someObj = [NSObject new];
+    [secArr replaceObjectAtIndex:4 withObject:someObj];
+    NSLog(@"after replace: %@", secArr);
+
+    
     // C语言遍历数组
     NSUInteger number = [secArr count];
     for (int i = 0; i < number; i++) {
@@ -59,10 +69,33 @@ int main(int argc, const char * argv[])
         NSLog(@"%@", obj);
     }
     
+<<<<<<< HEAD
     //修改
     [firstArr replaceObjectAtIndex:3 withObject:@"qiudushu"];
     //[firstArr replaceObjectsAtIndexes:2 withObjects:@"qiudushu"];
     NSLog(@"=========>firstArr:%@",firstArr);
+=======
+    // 通过枚举器来遍历数组
+    NSEnumerator *enum1 = [secArr objectEnumerator];
+    id obj1;
+    NSLog(@"*************************");
+    while (obj1 = [enum1 nextObject]) {
+        NSLog(@"obj1: %@", obj1);
+    }
+    
+    NSEnumerator *enum2 = [secArr reverseObjectEnumerator];
+    while (obj1 = [enum2 nextObject]) {
+        NSLog(@"reverse: %@", obj1);
+    }
+    
+    NSLog(@"============================");
+    // 快速枚举
+    for (id obj in secArr) {
+        NSLog(@"Fast Enumeration: %@", obj);
+    }
+    
+    
+>>>>>>> origin
     return 0;
 }
 
