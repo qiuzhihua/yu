@@ -59,6 +59,10 @@ int main(int argc, const char * argv[])
         NSLog(@"%@", obj);
     }
     
+    //修改
+    [firstArr replaceObjectAtIndex:3 withObject:@"qiudushu"];
+    //[firstArr replaceObjectsAtIndexes:2 withObjects:@"qiudushu"];
+    NSLog(@"=========>firstArr:%@",firstArr);
     return 0;
 }
 
